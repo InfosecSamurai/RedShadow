@@ -1,5 +1,3 @@
-4. Reconnaissance Module (modules/reconnaissance.py)
-
 import requests
 import socket
 
