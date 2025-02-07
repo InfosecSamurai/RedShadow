@@ -1,5 +1,3 @@
-1. Installation Script (install.sh)
-
 #!/bin/bash
 
 echo "Installing RedShadow dependencies..."
