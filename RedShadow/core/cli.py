@@ -1,5 +1,3 @@
-3. Command Line Interface (core/cli.py)
-
 from modules import reconnaissance, exploitation, post_exploitation, evasion, reporting
 
 def run_module(module):
