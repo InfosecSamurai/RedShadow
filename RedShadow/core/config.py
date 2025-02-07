@@ -1,5 +1,3 @@
-11. Configuration (core/config.py)
-
 import os
 
 LOG_PATH = "logs/"
