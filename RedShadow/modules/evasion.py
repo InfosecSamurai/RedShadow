@@ -1,5 +1,3 @@
-7. Evasion Module (modules/evasion.py)
-
 import os
 
 def run():
