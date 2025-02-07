@@ -1,5 +1,3 @@
-9. Setup Script (scripts/setup.py)
-
 import os
 
 def setup():
