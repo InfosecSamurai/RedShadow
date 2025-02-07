@@ -1,5 +1,3 @@
-2. Main Entry Point (redshadow.py)
-
 import argparse
 from core import cli
 
