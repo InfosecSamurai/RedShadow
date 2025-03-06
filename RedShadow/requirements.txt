@@ -1,5 +1,4 @@
 requests
 pycryptodome
-sqlite3
 nmap
 bs4
