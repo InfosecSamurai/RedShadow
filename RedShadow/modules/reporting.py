@@ -1,11 +1,26 @@
 import json
 import datetime
+import os
 
 def run():
+    findings = []
+    
+    while True:
+        finding = input("Enter finding (or type 'done' to finish): ").strip()
+        if finding.lower() == "done":
+            break
+        findings.append(finding)
+
     report = {
         "date": str(datetime.datetime.now()),
-        "findings": ["SQL Injection on target.com", "Open SSH Port 22"]
+        "findings": findings
     }
-    with open("reports/report.json", "w") as file:
+
+    if not os.path.exists("reports"):
+        os.makedirs("reports")
+
+    report_path = "reports/report.json"
+    with open(report_path, "w") as file:
         json.dump(report, file, indent=4)
-    print("Report saved to reports/report.json")
+
+    print(f"Report saved to {report_path}")
