@@ -1,4 +1,3 @@
 requests
 pycryptodome
-nmap
-bs4
+jinja2
